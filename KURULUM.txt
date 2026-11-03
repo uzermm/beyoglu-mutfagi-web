@@ -1,0 +1,35 @@
+BEYOĞLU MUTFAĞI — ANASAYFA TESLİMİ
+
+Tamamlanan tasarımın dosyalarıdır. Yayınlama yapılmamıştır.
+
+PAKET İÇERİĞİ
+- dist/index.html: Anasayfa
+- dist/assets/: Kullanılan logolar, ürün fotoğrafları ve üst bant çizimi
+- vercel.json: Bağımsız statik proje yayın ayarı
+
+YENİ BİR VERCEL PROJESİNDE
+ZIP dosyasını açın. Bu klasörü bir Git deposuna aktararak Vercel projesine bağlayın veya Vercel CLI ile bu klasörden yayınlayın.
+Framework: Other
+Build Command: boş bırakın; derleme gerekmez.
+Output Directory: dist
+Kurulum veya harici kütüphane gerekmez.
+
+MEVCUT SİTEYE ANASAYFA OLARAK EKLEME
+Mevcut projenizi tümüyle bu paketle değiştirmeyin.
+Yalnızca anasayfa dosyasını ve kullanılan assets dosyalarını mevcut sitenizin statik yayın yapısına uyarlayın. Diğer sayfalar, alt alan adları ve yönlendirmeler korunmalıdır.
+Mevcut projede vercel.json varsa üzerine yazmayın; mevcut framework, outputDirectory, redirects ve rewrites ayarları proje yapısına göre korunmalıdır. Buradaki vercel.json yalnızca bu bağımsız statik paket içindir.
+
+BAĞLANTILAR
+Natura Bistro: https://natura.beyoglumutfagi.com/
+Natura Dürüm: https://tgoyemek.com/restoranlar/469483
+Natura Fastfood: https://tgoyemek.com/restoranlar/461097
+Beyoğlu Mutfağı: https://tgoyemek.com/restoranlar/457199
+Instagram: @naturalezzetdunyasi ve @beyoglumutfagi
+Alt bilgi: www.beyoglumutfagi.com / 2024
+
+ÖNİZLEME
+Basit görünüm kontrolü için dist/index.html dosyasını tarayıcıda açabilirsiniz. Yayına hazırlık kontrolünde yerel bir statik sunucu kullanın.
+Masaüstünde dört marka yan yana, mobilde ikişerli iki sıra görünür. Görsel şeridi oklar ve dokunarak kaydırma ile kullanılır.
+
+NOT
+Yalnızca kullanılan görseller pakete alınmıştır. Sites kimlik dosyaları, Git geçmişi ve önceki tasarım görselleri dahil edilmemiştir.
